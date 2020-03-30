@@ -13,7 +13,7 @@
   "ignorePaths": ["**/node_modules/**"],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["before 5am"]
+    "schedule": ["before 11pm"]
   },
   "node": {
     "pinVersions": true,
@@ -34,7 +34,7 @@
   "rebaseConflictedPrs": false,
   "rebaseStalePrs": false,
   "reviewers": ["msvab"],
-  "schedule": ["before 5am"],
+  "schedule": ["before 11pm"],
   "semanticCommits": false,
   "semanticCommitScope": null,
   "separateMajorMinor": false,
