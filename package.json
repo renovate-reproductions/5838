@@ -1,0 +1,16 @@
+{
+  "name": "renovate-all-locks-refreshed-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msvab/renovate-all-locks-refreshed-bug.git"
+  },
+  "dependencies": {
+    "koa": "^1.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.3"
+  }
+}
