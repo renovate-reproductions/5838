@@ -31,7 +31,7 @@
   "pinDigests": false,
   "prCreation": "immediate",
   "rangeStrategy": "pin",
-  "rebaseConflictingPrs": false,
+  "rebaseConflictedPrs": false,
   "rebaseStalePrs": false,
   "reviewers": ["msvab"],
   "schedule": ["before 5am"],
