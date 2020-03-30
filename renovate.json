@@ -1,5 +1,49 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "automerge": false,
+  "branchName": "renovate/all",
+  "commitMessage": "🤖 Monday dep update",
+  "docker": {
+    "major": {
+      "enabled": true
+    }
+  },
+  "dryRun": false,
+  "enabled": true,
+  "enabledManagers": ["docker", "npm", "nvm"],
+  "ignorePaths": ["**/node_modules/**"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 5am"]
+  },
+  "node": {
+    "pinVersions": true,
+    "supportPolicy": ["lts_latest"]
+  },
+  "packageRules": [
+    {
+      "packageNames": ["node"],
+      "major": {
+        "enabled": true
+      },
+      "allowedVersions": "^12"
+    }
+  ],
+  "pinDigests": false,
+  "prCreation": "immediate",
+  "rangeStrategy": "pin",
+  "rebaseConflictingPrs": false,
+  "rebaseStalePrs": false,
+  "reviewers": ["msvab"],
+  "schedule": ["before 5am"],
+  "semanticCommits": false,
+  "semanticCommitScope": null,
+  "separateMajorMinor": false,
+  "separateMinorPatch": false,
+  "separateMultipleMajor": false,
+  "trustLevel": "high",
+  "updateLockFiles": true,
+  "updateNotScheduled": false,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
